@@ -1,2 +1,2 @@
 # Web-Assisment
-Icecream parlour
+Happy Scoop
