@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background:  #eaba71; /* Gradient background */
+    color: #333;
+    line-height: 1.6;
+    width: 100%;
+    height: 100%;
+}
+
+
+header {
+    background-color: #DA498D;
+    color: #fff;
+    padding: 18px;
+    justify-content: center;
+    display: flex;
+}
+.logo{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header .logo h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+nav{
+  margin-left: 800px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #fac67a;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    letter-spacing: 1px;
+}
+
+main {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+    color: #DA498D;
+    font-size: 2em;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form label {
+    font-weight: bold;
+    color: #333;
+    font-size: 1.1em;
+}
+
+form input, form textarea {
+    padding: 15px;
+    font-size: 1em;
+    border: 2px solid #FAC67A; /* Golden border color */
+    border-radius: 5px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #DA498D; /* Pink border on focus */
+    outline: none;
+}
+
+form button {
+    background-color: #DA498D; /* Button with pink background */
+    color: white;
+    padding: 15px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #fac67a; /* Hover effect */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+    
+}
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
