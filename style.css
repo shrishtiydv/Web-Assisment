@@ -7,23 +7,23 @@ body {
 }
 
 header {
+    padding: 18px;
     background-color: #DA498D;
     color: #fff;
-    padding: 18px;
     justify-content: center;
     display: flex;
 }
 .logo{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 0%;
 }
 
 header .logo h1 {
     font-size: 2rem;
-    margin: 0;
 }
 
 nav{
-  margin-left: 800px;
+  margin-left: 50%;
 }
 
 nav ul {

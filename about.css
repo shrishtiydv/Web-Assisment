@@ -1,29 +1,29 @@
 body {
-    font-family: 'Verdana', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background:#e8bb78 ;
+    background-color: #f8f8f8;
+    color: #333;
 }
 
 header {
+    padding: 18px;
     background-color: #DA498D;
     color: #fff;
-    padding: 18px;
     justify-content: center;
     display: flex;
 }
-
 .logo{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 0%;
 }
 
 header .logo h1 {
     font-size: 2rem;
-    margin: 0;
 }
 
 nav{
-  margin-left: 800px;
+  margin-left: 50%;
 }
 
 nav ul {
@@ -44,12 +44,11 @@ nav ul li a {
 nav ul li a:hover {
     color: #fac67a;
 }
-
-
-div{
-    height: 100%;
-    width: 100%;
-    margin-top: 20px;
+.hero {
+    background-color: #fac67a;
+    color: #333;
+    text-align: center;
+    padding: 30px 20px;
 }
 main {
     max-width: 900px;
@@ -85,30 +84,25 @@ main p {
 }
 
 .btn {
-    background-color: #DA498D;
-    color: white;
-    padding: 10px 20px;
-    font-size: 1em;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    background-color: #FFFFFF;
+    color: #DA498D;
     text-decoration: none;
+    padding: 10px 30px;
+    font-size: 1.1rem;
+    border-radius: 25px;
+    border: 2px solid #DA498D;
+    transition: background-color 0.3s;
 }
 
 .btn:hover {
-    background-color: #c0407a;
+    background-color:#DA498D;
+    color: #FFFFFF;
+    font-weight: 400px;
 }
 
 footer {
-    text-align: center;
-    padding: 20px;
     background-color: #333;
     color: white;
-    bottom: 0;
-    width: 100%;
-}    
-
-footer p {
-    margin: 0;
-    font-size: 0.9em;
+    text-align: center;
+    padding: 10px 0;
 }

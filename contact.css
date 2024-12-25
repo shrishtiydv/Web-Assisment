@@ -1,37 +1,29 @@
-* {
+body {
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Arial', sans-serif;
-    background:  #eaba71; /* Gradient background */
+    background-color: #f8f8f8;
     color: #333;
-    line-height: 1.6;
-    width: 100%;
-    height: 100%;
 }
 
 header {
+    padding: 18px;
     background-color: #DA498D;
     color: #fff;
-    padding: 18px;
     justify-content: center;
     display: flex;
 }
-
 .logo{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 0%;
 }
 
 header .logo h1 {
     font-size: 2rem;
-    margin: 0;
 }
 
 nav{
-  margin-left: 800px;
+  margin-left: 50%;
 }
 
 nav ul {
@@ -52,13 +44,12 @@ nav ul li a {
 nav ul li a:hover {
     color: #fac67a;
 }
-
-header h1 {
-    margin: 0;
-    font-size: 2.5em;
-    letter-spacing: 1px;
+.hero {
+    background-color: #fac67a;
+    color: #333;
+    text-align: center;
+    padding: 30px 20px;
 }
-
 main {
     max-width: 900px;
     margin: 50px auto;
@@ -66,11 +57,10 @@ main {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-}
-
+}    
 main h2 {
     color: #DA498D;
-    font-size: 2em;
+    font-size: 2.5em;
     margin-bottom: 30px;
     text-align: center;
 }
@@ -101,31 +91,24 @@ form input:focus, form textarea:focus {
 }
 
 form button {
-    background-color: #DA498D; /* Button with pink background */
-    color: white;
-    padding: 15px;
-    font-size: 1.2em;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+    background-color: #FFFFFF;
+    color: #DA498D;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 1.1rem;
+    border-radius: 25px;
+    border: 2px solid #DA498D;
+    transition: background-color 0.3s;
 }
 
 form button:hover {
-    background-color: #fac67a; /* Hover effect */
+    background-color:#DA498D;
+    color: #FFFFFF;
+    font-weight: 400px;
 }
-
 footer {
-    text-align: center;
-    padding: 20px;
     background-color: #333;
     color: white;
-    bottom: 0;
-    width: 100%;
-    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
-    
-}
-footer p {
-    margin: 0;
-    font-size: 0.9em;
+    text-align: center;
+    padding: 10px 0;
 }
